@@ -1,0 +1,26 @@
+{
+  "model_name": "Random Forest Regressor (Optimized)",
+  "anomaly_model_name": "Isolation Forest (Ensemble)",
+  "training_samples": 9216,
+  "test_samples": 2304,
+  "total_dataset_records": 11520,
+  "mae": 0.0331,
+  "rmse": 0.0664,
+  "r2_score": 0.9987,
+  "feature_importances": {
+    "hour": 0.0002,
+    "day_of_week": 0.0001,
+    "is_weekend": 0.0,
+    "hour_sin": 0.0001,
+    "hour_cos": 0.0004,
+    "temperature": 0.0013,
+    "occupancy": 0.0277,
+    "ac_status": 0.5011,
+    "light_status": 0.3055,
+    "fan_status": 0.0003,
+    "computer_status": 0.0053,
+    "lag_1h_power": 0.1456,
+    "lag_24h_power": 0.0118,
+    "rolling_mean_6h": 0.0007
+  }
+}
